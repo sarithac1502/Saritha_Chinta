@@ -3,205 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Saritha Chinta — Data Engineer, Data Migration and Data Analyst portfolio.">
-  <title>Saritha Chinta | Data Engineer</title>
+  <meta name="description" content="Saritha Chinta's professional portfolio — data engineering, ETL, data migration, SQL, and healthcare data experience.">
+  <meta name="theme-color" content="#f7f8fc">
+  <title>Saritha Chinta | Data &amp; ETL Professional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#home">Saritha Chinta</a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">☰</button>
-      <div id="nav-links" class="nav-links">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Saritha Chinta home"><span class="brand-mark">SC</span><span>Saritha Chinta</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="container hero-content">
-        <p class="eyebrow">Data Engineering • Data Migration • Data Analytics</p>
-        <h1>Data solutions built around reliable, validated enterprise data.</h1>
-        <p class="hero-copy">
-          I’m Saritha Chinta, a Software Development Engineer with 9+ years of experience
-          in data engineering, ETL development, data migration and data warehousing.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">View selected projects</a>
-          <a class="button secondary" href="https://www.linkedin.com/in/saritha-chinta-71026a283" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a class="button secondary" href="mailto:sarithac.1502@gmail.com">Email me</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container narrow">
-        <p class="section-label">About</p>
-        <h2>Enterprise data engineering experience</h2>
-        <p>
-          My experience includes large-scale data migration, ETL pipelines, data validation,
-          reconciliation, SQL/PLSQL development, data quality and production data support.
-          At IQVIA, I worked with enterprise data across Netezza, Oracle, DB2, HDFS, Hive
-          and Impala, including migration and validation activities.
-        </p>
-        <p>
-          I am currently targeting opportunities across <strong>Data Engineering,
-          Data Migration and Data Analytics</strong>.
-        </p>
-      </div>
-    </section>
-
-    <section id="projects" class="section section-alt">
-      <div class="container">
-        <p class="section-label">Selected projects</p>
-        <h2>Work that reflects my data experience</h2>
-        <div class="project-grid">
-          <article class="card project-card">
-            <span class="project-number">01</span>
-            <h3>New Data Warehouse (NDW)</h3>
-            <p>
-              Enterprise data migration involving terabytes of data from Oracle to Netezza
-              and HDFS. The work included data validation, ETL support, SQL and Unix shell
-              performance tuning, and reconciliation reporting.
-            </p>
-            <div class="tags">
-              <span>Oracle</span><span>Netezza</span><span>HDFS</span><span>SQL</span><span>Unix</span>
-            </div>
-          </article>
-
-          <article class="card project-card">
-            <span class="project-number">02</span>
-            <h3>Prescription Report Correction (PRC)</h3>
-            <p>
-              Production data correction work focused on business-rule compliance and data
-              accuracy. Designed ETL pipelines between Netezza, Mainframe files and Impala,
-              integrated supplier feeds, and developed automated quality checks.
-            </p>
-            <div class="tags">
-              <span>Netezza</span><span>Impala</span><span>Mainframe</span><span>ETL</span><span>Data Quality</span>
-            </div>
-          </article>
-
-          <article class="card project-card">
-            <span class="project-number">03</span>
-            <h3>Enterprise Data Migration &amp; Validation</h3>
-            <p>
-              Worked on large-scale movement of datasets between Netezza, Oracle, DB2 and
-              HDFS using Sqoop and PL/SQL, with validation and reconciliation activities
-              supporting data accuracy and completeness.
-            </p>
-            <div class="tags">
-              <span>Sqoop</span><span>PL/SQL</span><span>Oracle</span><span>DB2</span><span>HDFS</span>
-            </div>
-          </article>
-
-          <article class="card project-card">
-            <span class="project-number">04</span>
-            <h3>ETL Automation &amp; Data Quality</h3>
-            <p>
-              Created automated Quality Check Reports and reconciliation reports, monitored
-              data transformations from RDBMS platforms to Hive and Impala, and designed
-              ESP Events for job dependencies and batch processing.
-            </p>
-            <div class="tags">
-              <span>SQL</span><span>PL/SQL</span><span>Hive</span><span>Impala</span><span>ESP Cybermation</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <div class="container narrow">
-        <p class="section-label">Experience</p>
-        <div class="timeline-item">
-          <div class="timeline-dot" aria-hidden="true"></div>
-          <div>
-            <p class="date">January 2016 — September 2025</p>
-            <h2>Software Development Engineer</h2>
-            <h3>IQVIA · Bengaluru, India</h3>
-            <ul class="experience-list">
-              <li>Led large-scale data migration activities across Netezza, Oracle, DB2 and HDFS.</li>
-              <li>Designed and supported ETL pipelines and data validation processes.</li>
-              <li>Created automated Quality Check Reports and reconciliation reports.</li>
-              <li>Developed and optimized SQL/PLSQL for extraction, transformation, validation and migration workloads.</li>
-              <li>Monitored transformations from RDBMS platforms to Hive and Impala and investigated data-quality or processing issues.</li>
-              <li>Performed SQL and shell-script performance tuning and designed ESP Events for batch processing and job dependencies.</li>
-            </ul>
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> DATA • ETL • MIGRATION</p>
+          <h1>Turning complex data into <span class="accent-text">trusted insights.</span></h1>
+          <p class="hero-lede">I'm Saritha Chinta, a data professional with 9+ years of IT experience across SQL, ETL, data migration, data validation, and healthcare data environments.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/saritha-chinta-71026a283/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-facts">
+            <div><strong>9+ years</strong><span>IT experience</span></div>
+            <div><strong>Data quality</strong><span>Validation &amp; reconciliation</span></div>
+            <div><strong>Healthcare</strong><span>Data domain experience</span></div>
           </div>
         </div>
+        <aside class="hero-card" aria-label="Professional focus areas">
+          <div class="card-topline"><span class="mini-label">PROFESSIONAL FOCUS</span><span class="card-spark" aria-hidden="true">✳</span></div>
+          <div class="focus-item"><span class="focus-icon">01</span><div><h2>Data migration</h2><p>Moving and validating data across legacy and target platforms.</p></div></div>
+          <div class="focus-item"><span class="focus-icon">02</span><div><h2>ETL &amp; SQL</h2><p>Data transformation, query development, and batch workflows.</p></div></div>
+          <div class="focus-item"><span class="focus-icon">03</span><div><h2>Data quality</h2><p>Reconciliation, consistency checks, and quality reporting.</p></div></div>
+          <div class="card-footer"><span>CORE APPROACH</span><strong>Accuracy · Reliability · Clarity</strong></div>
+        </aside>
+      </div>
+      <div class="hero-decoration" aria-hidden="true"></div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2 class="section-title">Experienced in the details that make data dependable.</h2>
+        </div>
+        <div class="about-copy">
+          <p>My experience includes supporting data-intensive environments, migrating datasets between database platforms, building SQL-based validation checks, and helping maintain the consistency of critical production data.</p>
+          <p>Across healthcare data projects, I have worked with technologies including Netezza, Oracle, DB2, HDFS, Hive, Impala, Sqoop, PL/SQL, and Unix. I value careful validation, clear documentation, and practical solutions that make data processes more reliable.</p>
+          <div class="tag-row"><span>SQL development</span><span>ETL workflows</span><span>Data reconciliation</span><span>Production data</span></div>
+        </div>
       </div>
     </section>
 
-    <section id="skills" class="section section-alt">
+    <section class="section" id="skills">
       <div class="container">
-        <p class="section-label">Skills</p>
-        <h2>Technical toolkit</h2>
+        <div class="section-heading">
+          <div><p class="eyebrow">02 / SKILLS</p><h2 class="section-title">Tools I’ve worked with</h2></div>
+          <p class="section-intro">A selection of technologies and platforms from my professional experience.</p>
+        </div>
         <div class="skills-grid">
-          <div class="skill-group">
-            <h3>Databases &amp; data platforms</h3>
-            <p>Oracle · Netezza · DB2 · Hive · Impala · HDFS · Hadoop</p>
-          </div>
-          <div class="skill-group">
-            <h3>Programming &amp; scripting</h3>
-            <p>SQL · PL/SQL · Unix/Linux Shell Scripting</p>
-          </div>
-          <div class="skill-group">
-            <h3>ETL &amp; data movement</h3>
-            <p>ETL Development · Data Migration · Sqoop · Data Validation · Reconciliation</p>
-          </div>
-          <div class="skill-group">
-            <h3>Automation &amp; tools</h3>
-            <p>ESP Cybermation · CA Workstation · Linux · Git · Jira</p>
-          </div>
-          <div class="skill-group">
-            <h3>Currently learning</h3>
-            <p>Azure Data Factory · Azure Synapse Analytics</p>
+          <article class="skill-card"><div class="skill-symbol">SQL</div><h3>Querying &amp; databases</h3><p>SQL · PL/SQL · Netezza · Oracle · DB2 · MySQL</p></article>
+          <article class="skill-card"><div class="skill-symbol">ETL</div><h3>Data movement</h3><p>ETL processes · Sqoop · SQL*Loader · HDFS</p></article>
+          <article class="skill-card"><div class="skill-symbol">DQ</div><h3>Data quality</h3><p>Validation scripts · Reconciliation · Quality-check reports</p></article>
+          <article class="skill-card"><div class="skill-symbol">OPS</div><h3>Data operations</h3><p>Unix · Mainframe data · Batch scheduling · Production support</p></article>
+          <article class="skill-card"><div class="skill-symbol">HDP</div><h3>Hadoop ecosystem</h3><p>Hive · Impala · HDFS</p></article>
+          <article class="skill-card"><div class="skill-symbol">HC</div><h3>Domain experience</h3><p>Healthcare data · Prescription reporting · Supplier feeds</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="experience">
+      <div class="container">
+        <p class="eyebrow eyebrow-light">03 / EXPERIENCE</p>
+        <div class="experience-layout">
+          <div><h2 class="section-title">Building confidence in critical data.</h2><p class="dark-intro">Professional experience at IQVIA, working with data workflows and production data in healthcare-related projects.</p></div>
+          <div class="timeline">
+            <article class="timeline-item"><span class="timeline-marker"></span><div class="timeline-meta">IQVIA <span>·</span> Software Development Engineer</div><h3>Data engineering, migration &amp; production data</h3><p>Worked with SQL, database platforms, ETL processes, data validation, and batch workflows supporting critical data operations.</p><ul><li>Supported large-scale migration activity involving Oracle, Netezza, HDFS, and related data platforms.</li><li>Created automated quality-check reports and validation scripts to check data accuracy and completeness.</li><li>Worked with data transformations involving Hive and Impala, and optimized SQL queries for data processing.</li><li>Designed and scheduled ESP events to support job dependencies and batch automation.</li></ul></article>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="education" class="section">
-      <div class="container narrow">
-        <p class="section-label">Education</p>
-        <div class="education-card">
-          <h2>Bachelor of Technology</h2>
-          <p>Computer Science &amp; Engineering</p>
-          <p>Anantapur · Graduated 2013</p>
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">04 / PROJECT EXPERIENCE</p><h2 class="section-title">Work built around data reliability.</h2></div>
+          <p class="section-intro">Selected project experience. Descriptions summarize responsibilities and platforms; confidential client data and proprietary code are not included.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-number">PROJECT 01 <span>HEALTHCARE DATA</span></div>
+            <div class="project-art art-migration" aria-hidden="true"><div class="data-node node-a">SOURCE</div><div class="data-flow">······→</div><div class="data-node node-b">TARGET</div><div class="data-base"></div></div>
+            <div class="project-content"><h3>New Data Warehouse (NDW)</h3><p>Data warehouse migration experience involving large datasets moved from Oracle to Netezza and HDFS. Focus areas included data movement, validation, and consistency checks.</p><div class="tag-row"><span>Oracle</span><span>Netezza</span><span>HDFS</span><span>Migration</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">PROJECT 02 <span>DATA OPERATIONS</span></div>
+            <div class="project-art art-quality" aria-hidden="true"><div class="quality-sheet"><span></span><span></span><span></span><b>✓</b></div><div class="quality-ring">DQ</div></div>
+            <div class="project-content"><h3>Prescription Report Correction (PRC)</h3><p>Production data correction according to business rules, with data consistency checks and SQL-based validation across data sources and target tables.</p><div class="tag-row"><span>SQL</span><span>Netezza</span><span>Impala</span><span>Data quality</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-number">PROJECT 03 <span>QUALITY &amp; AUTOMATION</span></div>
+            <div class="project-art art-checks" aria-hidden="true"><div class="check-line"><i>✓</i><span></span></div><div class="check-line"><i>✓</i><span></span></div><div class="check-line"><i>✓</i><span></span></div><div class="check-orbit"></div></div>
+            <div class="project-content"><h3>Automated Quality-Check Reports</h3><p>Developed automated checks and reports to support data accuracy and completeness reviews, helping teams identify discrepancies during data processing and migration.</p><div class="tag-row"><span>SQL</span><span>Validation</span><span>Reporting</span><span>Automation</span></div></div>
+          </article>
+        </div>
+        <p class="project-note"><strong>Note:</strong> These are summaries of professional project experience, not public source-code demos. Additional independent demonstration projects can be added as they are developed.</p>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="approach">
+      <div class="container approach-wrap">
+        <div><p class="eyebrow">05 / HOW I WORK</p><h2 class="section-title">A careful, structured approach to data.</h2></div>
+        <div class="approach-steps">
+          <div><span>01</span><p><strong>Understand</strong> the source, target, and business rules.</p></div>
+          <div><span>02</span><p><strong>Validate</strong> mappings, counts, and data quality.</p></div>
+          <div><span>03</span><p><strong>Reconcile</strong> results and investigate discrepancies.</p></div>
+          <div><span>04</span><p><strong>Document</strong> outcomes and support reliable operations.</p></div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section contact-section">
-      <div class="container narrow">
-        <p class="section-label">Contact</p>
-        <h2>Let’s connect</h2>
-        <p>
-          For opportunities related to Data Engineering, Data Migration or Data Analytics,
-          you can reach me through email or LinkedIn.
-        </p>
-        <div class="contact-links">
-          <a href="mailto:sarithac.1502@gmail.com">sarithac.1502@gmail.com</a>
-          <a href="https://www.linkedin.com/in/saritha-chinta-71026a283" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>
-        </div>
-        <p class="location">Bengaluru, India</p>
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel">
+        <div><p class="eyebrow eyebrow-light">06 / CONTACT</p><h2>Let’s connect about data opportunities.</h2><p>I’m interested in opportunities across data engineering, data migration, ETL, data analysis, and data operations.</p></div>
+        <div class="contact-actions"><a class="button button-light" href="https://www.linkedin.com/in/saritha-chinta-71026a283/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a class="contact-link" href="https://github.com/sarithac1502" target="_blank" rel="noopener noreferrer">View GitHub profile ↗</a></div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container">
-      <p>© <span id="year"></span> Saritha Chinta</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">SC</span><span>Saritha Chinta</span></a><p>Designed to showcase experience in data, ETL, and migration.</p><a href="#home" class="back-top">Back to top ↑</a></div><div class="container copyright">© <span id="year"></span> Saritha Chinta. Built with HTML, CSS &amp; JavaScript.</div></footer>
 </body>
 </html>
